@@ -25,7 +25,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "bulma/css/bulma.css",
+              "@fortawesome/fontawesome-free/css/all.css",
+              "src/styles/index.scss"
             ],
             "scripts": []
           },
@@ -87,10 +89,13 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles/index.scss"
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
